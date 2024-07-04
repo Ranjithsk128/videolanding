@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+form{
+    background-color: gold;
+    border: 2px solid green;
+    width: 20%;
+    margin-top: 50px;
+    margin-left: 480px;
+    padding: 50px;
+}
+label{
+    display: block;
+}
+input{
+    margin-left: 25px;
+    height: 25px;
+    border: 2px solid red;
+    color: rgb(42, 116, 165);
+}
+select{
+    padding-right: 30px;
+    height: 30px;
+    border: 2px solid red;
+}
+button{
+    padding-right: 25px;
+    padding: 5px;
+    margin-left: 80px;
+    border-radius: 15px;
+    cursor: pointer;
+    color: beige;
+    background-color: brown;
+}

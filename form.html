@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <form>
+        <label>firstname:</label>
+        <input type="text" required><br>
+        <label>lastname:</label>
+        <input type="text" required><br>
+        <label>password:</label>
+        <input type="password" pattern="[A-Za-z]{5,10}" title="password must be 5-10 letters" required><br>
+        <label>contact:</label>
+        <input type="number" min="1000000000" max="9999999999" title="must be include 10 numbers" required><br>
+        <label>age:</label>
+        <input type="number" min="10" max="99" title="must be include age in 2 numbers" required><br>
+        <label>gender:</label>
+        <input type="radio">male
+        <input type="radio">female 
+        <input type="radio">trans<br>
+        <label>country:</label>
+        <input type="checkbox">indian
+        <input type="checkbox">foreigner<br>
+        <label>state:</label>
+        <select required>
+            <option>choose your state</option>
+            <option>tamilnadu</option>
+            <option>kerala</option>
+            <option>karnataka</option>
+        </select><br>
+        <label>email:</label>
+        <input type="email" required><br><br>
+        <label>website:</label>
+        <input type="url"><br><br>
+        <button>submit</button>
+
+    </form>
+</body>
+</html>
